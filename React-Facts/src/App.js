@@ -1,8 +1,13 @@
+// importing Main and Navbar component
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
-import React from "react" // to render jsx
-import "./style.css" // import css into file to tell to apply it 
+// importing react 
+import React from "react" 
+// importing our style
+import "./style.css"  
 
+
+// exporting App component
 export default function App(){
     return (
         <div className="container">
