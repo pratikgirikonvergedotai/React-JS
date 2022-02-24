@@ -1,5 +1,5 @@
 import React from "react";
-import "../c.css"
+import "../style.css"
 
 
 function Card(props){
@@ -20,7 +20,7 @@ function Card(props){
                 <span>{props.item.stats.rating}</span>
                 <span className="gray">({props.item.stats.reviewCount}) . </span>
                 <span className="gray">{props.item.location}</span>
-            </div>
+            </div> 
             <p>{props.item.title}</p>
             <p><span className="bold">From ${props.item.price}</span> / person</p>
         </div>
